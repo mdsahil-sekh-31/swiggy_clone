@@ -5,7 +5,7 @@ import Restaurants from "./Restaurants";
 import RestaurantMenu from "./RestaurantMenu";
 createRoot(document.getElementById("root")).render(
   
-      <BrowserRouter>
+      <BrowserRouter  basename="/swiggy_clone">
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/restaurant" element={<Restaurants />} />
